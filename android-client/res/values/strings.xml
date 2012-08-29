@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KillTheDj</string>
+    <string name="update">Update</string>
+    <string name="search_tracks">Search Tracks</string>
+    <string name="playlist">Playlist</string>
+    <string name="my_requests">My Requests</string>
+    <string name="current_track">Current Track</string>
+    <string name="search_hint">Track\'s name</string>
+    <string name="request_song">Request Song</string>
+    <string name="request">Request</string>
+    <string name="Error">Error</string>
+    <string name="searching_songs">Searching songs&#8230;</string>
+    <string name="requesting_song">Requesting song&#8230;</string>
+    <string name="requesting_playlist">Requesting playlist&#8230;</string>
+    <string name="fetching_current">Fetching current song&#8230;</string>
+    <string name="sending_vote_positive">Sending vote positive&#8230;</string>
+    <string name="sending_vote_negative">Sending vote negative&#8230;</string>
+    <string name="error_search_tracks">Error happened when trying to search songs</string>
+    <string name="error_request_song">Error happened when trying to request your song</string>
+    <string name="error_request_playlist">Error happened when trying to request the playlist</string>
+    <string name="error_current_song">Error happened when trying to fetch current song</string>
+    <string name="request_done">Request sent</string>
+    <string name="vote_song_votes">Votes: </string>
+    <string name="vote_song">Vote Song</string>
+    <string name="error_voting_song">Error happened when trying to vote</string>
+    <string name="vote_done">Vote sent</string>
+    <string name="sent">Sent </string>
+    <string name="in_queue">In queue</string>
+    <string name="party_hint">Party\'s name</string>
+    <string name="party_enter">Let\'s party!</string>
+    <string name="played">Played</string>
+    <string name="forbidden_add_track">You can only add three tracks per minute</string>
+
+</resources>

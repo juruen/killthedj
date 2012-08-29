@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Song&apos;s artist and album u know"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/voteUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:src="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/voteDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/voteUp"
+        android:layout_below="@+id/voteUp"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:src="@drawable/down" />
+
+    <TextView
+        android:id="@+id/textExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/voteUp"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/voteUp"
+        android:text="Song&apos;s name"
+        android:textColor="#808080"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/votes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textExtra"
+        android:layout_below="@+id/textExtra"
+        android:layout_marginTop="15dp"
+        android:text="@string/vote_song_votes"
+        android:textColor="#909090"
+        android:textSize="13dp"
+        android:textStyle="bold"
+      />
+
+    <TextView
+        android:id="@+id/votesValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/votes"
+        android:layout_toRightOf="@+id/votes"
+        android:paddingLeft="2dp"
+        android:text="lalalala"
+        android:textColor="#a0a0a0"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

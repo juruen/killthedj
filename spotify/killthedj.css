@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #667788;
+
+}
+
+div.config {
+  margin: auto;
+  text-align: center;
+}
+
+#start {
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    margin:auto;
+    text-align: center;
+    padding: 100px;
+}
+.party {
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 9px;
+    -webkit-transition: box-shadow 800ms;
+}
+
+button.party {
+    padding: 12px;
+    margin-left: 20px;
+    -webkit-transition: box-shadow 800ms;
+}
+button.party:hover {
+    box-shadow: 0px 0px 10px 10px #aaaaff;
+}
+
+input.party:focus {
+    box-shadow: 0px 0px 10px 10px #aaaaff;
+}
+
+button {
+  background: #7070EF;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: Georgia, sans-serif;
+  font-size: 15px;
+  outline: 0;
+  padding: 7px;
+  position: relative;
+  text-shadow: rgba(0, 0, 0, .2) 2px 2px 0;
+}
+
+button.stop {
+  background: #CD4029;
+  -webkit-transition: box-shadow 800ms;
+  width: 300px;
+}
+button.stop:focus, button.stop:hover {
+  box-shadow: #CD4029 0 0 50px;
+}
+
+button.start {
+  background: #66C010;
+  -webkit-transition: box-shadow 800ms;
+  width: 300px;
+}
+button.start:focus, button.start:hover {
+  box-shadow: #66C010 0 0 50px;
+}
+
+button[disabled] {
+  background: #aaa;
+  color: #444;
+}
+button[disabled]:focus, button[disabled]:hover {
+  box-shadow: none;
+}
+
+span.position, span.votes, span.delete {
+  width: 30px;
+}
+
+span.delete img {
+  cursor: pointer;
+}
+
+#party {
+    display: none;
+}
+
+#cover {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}

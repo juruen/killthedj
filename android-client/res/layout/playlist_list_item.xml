@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/textExtra"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35dp"
+            android:text="10"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/voteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/position"
+            android:src="@drawable/vote" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/voteButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Welcome To the Jungle"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textExtra"
+            android:layout_below="@+id/textTitle"
+            android:layout_toRightOf="@+id/voteButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="Guns'n'roses"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#808080" />
+
+    </RelativeLayout>

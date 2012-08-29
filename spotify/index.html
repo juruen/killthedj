@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kill The Dj</title>
+    <link rel="stylesheet" href="sp://import/css/adam.css">
+    <link rel="stylesheet" href="sp://import/css/core-dark.css">
+    <link rel="stylesheet" href="sp://import/css/api.css">
+    <link rel="stylesheet" href="sp://import/css/shared.css">
+    <link rel="stylesheet" href="sp://killthedj/killthedj.css">
+
+    <script src="sp://killthedj/jquery-1.7.1.min.js"></script>
+    <script src="sp://killthedj/killthedj.js"></script>
+</head>
+<body>
+
+
+<div id="start">
+    <div class="logo">
+      <img src="logo.png" title="killthedj">
+    </div>
+    <input class="party" id="party-id" placeholder="Party ID">
+    <button class="party">Let's party</button>
+</div>
+
+<div id="party">
+    <h1 id="header">DJ Request</h1>
+
+    <h2>Configuration</h2>
+    <div class="config">
+        <button id="start-button" class="start">Start Playing</button>
+        <button id="stop-button" class="stop">Stop Playing</button>
+    </div>
+
+    <h2>Request Queue</h2>
+    <div id="queue">Loading queue from server...</div>
+    <div id="cover"><img id="img-cover" src=""></div>
+    <div id="back"><a href="#" id="back-start">&lt;&lt; Change Party</a>
+</div>
+
+</body>
+</html>

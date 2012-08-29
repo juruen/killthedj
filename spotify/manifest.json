@@ -1,0 +1,22 @@
+{
+	"AppDescription": {
+		"en": "Kill the Dj"
+	},	
+	"AppIcon": {
+		"36x18": "icon.png"
+	},
+	"AppName": {
+		"en": "Kill The DJ"
+	},
+	"BundleType": "Application",
+	"BundleIdentifier": "killthedj",
+	"BundleVersion": "0.1",
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://ws.audioscrobbler.com",
+		"http://foolano.warp.es:3000",
+		"http://192.168.45.59:3000"
+	]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textInQueue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8b8b8b"
+        android:text="@string/in_queue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="13dp" />
+
+    <ListView
+        android:id="@+id/my_requests_added"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textPlayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8b8b8b"
+        android:text="@string/played"
+        android:textSize="13dp"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/my_requests_played"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
